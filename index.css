@@ -87,6 +87,14 @@ header nav{
     text-align: center;
 }
 
+.nav1:hover {
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: white;
+    color: #FF764E;
+    border: 1px solid #FF764E;
+}
+
 .nav2{
    background-color: #5ED3EB;
    border-radius: 25px;
@@ -100,6 +108,14 @@ header nav{
    
 }
 
+.nav2:hover {
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: white;
+    color: #5ED3EB;
+    border: 1px solid #5ED3EB;
+}
+
 .nav3{
    background-color: #FFCD69;
    border-radius: 25px;
@@ -110,6 +126,14 @@ header nav{
    max-width: 120px;
    max-height: 70px;
    text-align: center
+}
+
+.nav3:hover {
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: white;
+    color: #FFCD69;
+    border: 1px solid #FFCD69;
 }
 
 /* Header Section */
@@ -219,6 +243,14 @@ h1{
     text-align: center;
 }
 
+.nav4:hover {
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: white;
+    color: #FF764E;
+    border: 1px solid #FF764E;
+}
+
 .nav5{
    background-color: #5ED3EB;
    border-radius: 25px;
@@ -228,8 +260,15 @@ h1{
    color: white;
    max-width: 150px;
    max-height: 70px;
-   text-align: center
-   
+   text-align: center 
+}
+
+.nav5:hover {
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: white;
+    color: #5ED3EB;
+    border: 1px solid #5ED3EB;
 }
 
 .nav6{
@@ -242,4 +281,12 @@ h1{
    max-width: 120px;
    max-height: 70px;
    text-align: center
+}
+
+.nav6:hover {
+    transition: 0.5s;
+    transition-delay: 0s;
+    background-color: white;
+    color: #FFCD69;
+    border: 1px solid #FFCD69;
 }
