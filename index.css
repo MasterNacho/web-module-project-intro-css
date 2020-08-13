@@ -52,6 +52,17 @@ table {
     
 }
 
+body{
+    margin: 5;
+    text-align: center;
+    display: block;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* Navigation Bar */
 
 header nav{
@@ -63,6 +74,7 @@ header nav{
     margin-right: 40px;
 }
 
+
 .nav1{
     background-color: #FF764E;
     border-radius: 25px;
@@ -70,8 +82,8 @@ header nav{
     margin: 30px;
     font-family: 'Roboto Mono', monospace;
     color: white;
-    max-width: 120px;
-    max-height: 65px;
+    max-width: 135px;
+    max-height: 70px;
     text-align: center;
 }
 
@@ -83,7 +95,7 @@ header nav{
    font-family: 'Roboto Mono', monospace;
    color: white;
    max-width: 150px;
-   max-height: 65px;
+   max-height: 70px;
    text-align: center
    
 }
@@ -96,13 +108,138 @@ header nav{
    font-family: 'Roboto Mono', monospace;
    color: white;
    max-width: 120px;
-   max-height: 65px;
+   max-height: 70px;
    text-align: center
 }
 
-img{
-    width: 210px;
-    height: 200px;
+/* Header Section */
+
+.header_img{
+    width: 260px;
+    height: 250px;
     border-radius: 50%;
+    float: left;
 }
 
+
+h1{
+    font-size: 50px;
+}
+
+ .header_text{
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    padding: 5%;
+    margin: 0 auto;
+ }
+
+ .space-header-text {
+     padding: 1%;
+     text-align: center;
+ }
+
+ /* Body Sections */
+
+ .section1{
+     background-color: #DDB9A3;
+     color: white;
+     font-family:'Roboto Mono', monospace;
+     text-align: center;
+     padding: 2%;
+     margin: 10%;
+     
+ }
+
+ .need-space {
+     padding: 5%;
+ }
+
+ .fire {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.truck {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.section2 {
+    font-family:'Roboto Mono', monospace;
+    text-align: center;
+    padding: 2%;
+    margin: 10%;
+}
+
+.section3 {
+    font-family:'Roboto Mono', monospace;
+    text-align: center;
+    padding: 2%;
+    margin: 10%;
+}
+
+ /* Footer */
+
+ footer{
+    background-color: #F9E7DC;
+ }
+
+.footer_img {
+    object-fit: cover;
+    width: 100%;
+    height: 20em;
+}
+
+ footer nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+ .nav4{
+    background-color: #FF764E;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 30px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    max-width: 135px;
+    max-height: 70px;
+    text-align: center;
+}
+
+.nav5{
+   background-color: #5ED3EB;
+   border-radius: 25px;
+   padding: 20px;
+   margin: 30px;
+   font-family: 'Roboto Mono', monospace;
+   color: white;
+   max-width: 150px;
+   max-height: 70px;
+   text-align: center
+   
+}
+
+.nav6{
+   background-color: #FFCD69;
+   border-radius: 25px;
+   padding: 20px;
+   margin: 30px;
+   font-family: 'Roboto Mono', monospace;
+   color: white;
+   max-width: 120px;
+   max-height: 70px;
+   text-align: center
+}
